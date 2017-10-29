@@ -11,7 +11,7 @@
       "target":"es5",
       "baseUrl": ".","paths": {
         // "@types" : ["src/core/types/index.ts"],
-        // "@layers" : ["src/core/layers/index.ts"]
+        "@layers.implemented" : ["src/main.test.ts"]
       },
       "declaration": true
     },
