@@ -5,7 +5,7 @@ module.exports = {
  resolve: {
    extensions: ['.webpack.js', '.web.js', '.ts', '.js'],
    plugins: [
-    new TsConfigPathsPlugin(/* { tsconfig, compiler } */)
+    new TsConfigPathsPlugin()
 ]
  },
  module: {
