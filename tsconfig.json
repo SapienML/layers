@@ -10,7 +10,7 @@
       "sourceMap": true,
       "target":"es5",
       "baseUrl": ".","paths": {
-        // "@types" : ["src/core/types/index.ts"],
+        "@layers" : ["src/main.ts"],
         "@layers.implemented" : ["src/main.test.ts"]
       },
       "declaration": true
