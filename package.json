@@ -49,6 +49,7 @@
     "typescript": "^2.5.3"
   },
   "dependencies": {
+    "@sapien/core.types": "0.0.8",
     "@types/assert": "0.0.31",
     "@types/node": "^8.0.30",
     "assert": "^1.4.1",
