@@ -34,9 +34,6 @@
   "devDependencies": {
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.43",
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babelify": "^7.3.0",
     "chai": "^4.1.2",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
@@ -45,7 +42,6 @@
     "mocha-typescript": "^1.1.12",
     "source-map-support": "^0.4.18",
     "ts-node": "^3.3.0",
-    "tsconfig-paths": "^2.3.0",
     "typescript": "^2.5.3"
   },
   "dependencies": {
@@ -53,8 +49,6 @@
     "@types/assert": "0.0.31",
     "@types/node": "^8.0.30",
     "assert": "^1.4.1",
-    "awesome-typescript-loader": "^3.2.3",
-    "grunt-contrib-uglify": "^3.0.1",
     "grunt-ts": "^6.0.0-beta.17",
     "ndarray": "^1.0.18",
     "standard-version": "^4.2.0",
