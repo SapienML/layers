@@ -1,4 +1,4 @@
-import { Layer } from '@layers';
+import { Layer } from './Layer';
 import { Tensor } from '@sapien/core.types';
 
 export class Dense extends Layer{
