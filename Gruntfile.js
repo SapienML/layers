@@ -11,24 +11,33 @@ const uglifyConf = {
     }
 };
 
-const webpackConf = {
-    dist: require("./webpack.config.js")
-};
+const tsc =  {
+    default :{
+        src : ["./src/**/*ts"],
+        outDir : "dist",
+        
+    },
+    options : {
+        rootDir : "./src",
+        declaration : true,
+        sourceMap : false
+    }
+  }
 
 module.exports = function(grunt) {
     require("load-grunt-tasks")(grunt);
     // Project configuration.
     grunt.initConfig({
             pkg         : grunt.file.readJSON("package.json"),
-            webpack     : webpackConf,
+            ts : tsc,
             uglify      : uglifyConf
         });
 
     // Load the plugin that provides the "uglify" task.
-    grunt.loadNpmTasks("grunt-contrib-uglify");
+    // grunt.loadNpmTasks("grunt-contrib-uglify");
     //grunt typescript for transpiling typescript into javascript
-    grunt.loadNpmTasks("grunt-webpack");
+    grunt.loadNpmTasks("grunt-ts");
     // Default task(s).
-    grunt.registerTask("default", ["webpack", "uglify"]);
+    grunt.registerTask("default", ["ts"]);
 
 };
