@@ -5,7 +5,7 @@
 The Missing Ai / Machine Learning Library for JavaScript built by and for Homo Sapiens.
 
 ## Quickstart
- - `npm install @sapien/core.layers`
+ - `npm install @sapien/layers`
 
 ---
 ### License
