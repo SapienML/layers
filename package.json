@@ -1,9 +1,9 @@
 {
-  "name": "@sapien/package-name",
-  "version": "0.0.0-beta.2",
+  "name": "@sapien/layers",
+  "version": "0.0.0-beta.4",
   "description": "The Missing AI / ML Library for JavaScript.",
-  "main": "dist/bundle.min.js",
-  "typings": "dist/src/main.d.ts",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
   "url": "",
   "scripts": {
     "test": "mocha",
