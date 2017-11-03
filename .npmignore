@@ -1,0 +1,5 @@
+./src
+.tscache
+docs
+test
+node_modules
