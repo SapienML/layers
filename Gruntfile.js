@@ -9,7 +9,7 @@ const tsc =  {
         declaration : true,
         sourceMap : false
     }
-  }
+  };
 
 module.exports = function(grunt) {
     require("load-grunt-tasks")(grunt);
